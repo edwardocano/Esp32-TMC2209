@@ -31,7 +31,7 @@ void setup() {
   pinMode(STEP_PIN_2 ,OUTPUT);
   pinMode(DIR_PIN_2 ,OUTPUT);
 
-  digitalWrite(EN_PIN_2 ,HIGH);
+  digitalWrite(EN_PIN_2 ,LOW);
   digitalWrite(DIR_PIN_2 ,LOW);
 
   driver2.begin();
